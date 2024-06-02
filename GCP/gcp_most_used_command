@@ -2,23 +2,24 @@ The Google Cloud SDK (gcloud) offers a vast range of commands for interacting wi
 
 Compute Engine:
 
-Listing Resources:
+### Listing Resources:
 gcloud compute zones list: Lists available zones.
 gcloud compute instances list: Lists all VM instances in your project.
 gcloud compute disks list: Lists persistent disks.
 gcloud compute snapshots list: Lists snapshots of your disks.
-Instance Management:
+
+### Instance Management:
 gcloud compute instances create: Creates a new VM instance.
 gcloud compute instances describe: Gets details of a specific VM.
 gcloud compute instances stop: Stops a running VM instance.
 gcloud compute ssh: Opens an SSH connection to a VM.
-Cloud Storage:
 
+### Cloud Storage:
 gsutil mb gs://bucket_name: Creates a new storage bucket.
 gsutil cp local_file gs://bucket_name: Uploads a file to a bucket.
 gsutil ls gs://bucket_name: Lists objects within a bucket.
-Other Services:
 
+### Other Services:
 gcloud auth list: Lists the active GCP account.
 gcloud config list project: Shows the current project ID.
 gcloud kms decrypt: Decrypts ciphertext using Cloud Key Management Service.
