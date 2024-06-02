@@ -1,0 +1,110 @@
+The Azure Command-Line Interface (Azure CLI) is a set of commands used to create and manage Azure resources. 
+It provides commands for managing a wide array of Azure services. 
+Here's a basic list of some common Azure CLI commands grouped by category:
+
+### 1. General Management
+- `az login`: Log in to Azure.
+- `az account list`: List all Azure subscriptions.
+- `az account set`: Set an active subscription.
+- `az group create`: Create a resource group.
+- `az group delete`: Delete a resource group.
+
+### 2. Compute
+- `az vm create`: Create a virtual machine.
+- `az vm delete`: Delete a virtual machine.
+- `az vm list`: List all virtual machines.
+- `az vm start`: Start a virtual machine.
+- `az vm stop`: Stop a virtual machine.
+
+### 3. Storage
+- `az storage account create`: Create a storage account.
+- `az storage account delete`: Delete a storage account.
+- `az storage container create`: Create a container in a storage account.
+- `az storage blob upload`: Upload a blob to a storage container.
+
+### 4. Networking
+- `az network vnet create`: Create a virtual network.
+- `az network vnet delete`: Delete a virtual network.
+- `az network nsg create`: Create a network security group.
+- `az network nsg rule add`: Add a security rule to a network security group.
+
+### 5. Database Services
+- `az sql server create`: Create a SQL server.
+- `az sql db create`: Create a database on a SQL server.
+- `az cosmosdb create`: Create a Cosmos DB account.
+
+### 6. Web Services
+- `az webapp create`: Create a web app.
+- `az webapp delete`: Delete a web app.
+- `az functionapp create`: Create a function app.
+
+### 7. Monitoring and Management
+- `az monitor activity-log list`: List activity logs.
+- `az monitor metrics list`: List metrics for resources.
+- `az policy assignment create`: Create a policy assignment.
+
+### 8. Azure Kubernetes Service (AKS)
+- `az aks create`: Create a managed Kubernetes cluster.
+- `az aks delete`: Delete a managed Kubernetes cluster.
+- `az aks get-credentials`: Get credentials for a managed Kubernetes cluster.
+
+These commands are just the basics to get you started with managing Azure resources using the CLI. 
+For each of these commands, there are additional parameters and options that you can specify to tailor the command to your specific needs. 
+You can find more detailed documentation and additional commands by checking the official Azure CLI documentation or using az <command> --help to get help directly in the CLI.
+
+
+Most Commonly used Commands
+
+In the Azure CLI, the most commonly used commands tend to revolve around day-to-day operations, managing resources, and monitoring. 
+Here's a more focused list of Azure CLI commands that are frequently used in various Azure management scenarios:
+
+### 1. Authentication and Account Management
+- `az login`: Log into Azure. This is often the first command used in any session.
+- `az account set`: Set or switch the active Azure subscription.
+- `az account show`: Display details about the currently active subscription.
+
+### 2. Resource Groups
+- `az group create`: Create a new resource group.
+- `az group delete`: Delete a resource group.
+- `az group list`: List all resource groups in your subscription.
+
+### 3. Virtual Machines
+- `az vm create`: Create a new virtual machine.
+- `az vm deallocate`: Deallocate a VM (stop without billing).
+- `az vm start`: Start a stopped virtual machine.
+- `az vm stop`: Stop a running virtual machine.
+- `az vm list`: List all VMs in a resource group or subscription.
+
+### 4. Storage Accounts
+- `az storage account create`: Create a new storage account.
+- `az storage account keys list`: List keys for a storage account, often used to access the storage programmatically.
+- `az storage blob upload`: Upload a file as a blob to a storage container.
+
+### 5. Networking
+- `az network vnet create`: Create a virtual network.
+- `az network nsg rule add`: Add a security rule to a network security group.
+- `az network public-ip create`: Create a public IP address.
+
+### 6. Web Apps
+- `az webapp create`: Create a new web application.
+- `az webapp restart`: Restart a web application.
+- `az webapp log tail`: Watch live log stream of the web application.
+
+### 7. Database Services
+- `az sql db create`: Create a SQL database.
+- `az cosmosdb create`: Create an instance of Cosmos DB.
+
+### 8. Azure Kubernetes Service (AKS)
+- `az aks create`: Create a Kubernetes cluster.
+- `az aks get-credentials`: Get access credentials for a Kubernetes cluster.
+
+### 9. Monitoring and Diagnostics
+- `az monitor activity-log list`: List activity logs for auditing and monitoring.
+- `az monitor diagnostics settings create`: Set up diagnostic settings for resources.
+
+### 10. Role-Based Access Control (RBAC)
+- `az role assignment create`: Create a role assignment.
+- `az role assignment list`: List role assignments.
+
+These commands are commonly used across a variety of tasks such as deployment, configuration, monitoring, and maintenance of Azure resources. 
+Understanding these commands can significantly improve the efficiency of managing Azure environments.
