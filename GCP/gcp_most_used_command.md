@@ -1,33 +1,39 @@
-The Google Cloud SDK (gcloud) offers a vast range of commands for interacting with various GCP services. Here's a quick rundown to get you started:
+## Google Cloud SDK (gcloud) Commands
 
-Compute Engine:
+The Google Cloud SDK (gcloud) offers a variety of commands to interact with different Google Cloud Platform (GCP) services. Here's a quick reference to get you started:
 
-### Listing Resources:
-gcloud compute zones list: Lists available zones.
-gcloud compute instances list: Lists all VM instances in your project.
-gcloud compute disks list: Lists persistent disks.
-gcloud compute snapshots list: Lists snapshots of your disks.
+### Compute Engine
 
-### Instance Management:
-gcloud compute instances create: Creates a new VM instance.
-gcloud compute instances describe: Gets details of a specific VM.
-gcloud compute instances stop: Stops a running VM instance.
-gcloud compute ssh: Opens an SSH connection to a VM.
+**Listing Resources:**
 
-### Cloud Storage:
-gsutil mb gs://bucket_name: Creates a new storage bucket.
-gsutil cp local_file gs://bucket_name: Uploads a file to a bucket.
-gsutil ls gs://bucket_name: Lists objects within a bucket.
+* `gcloud compute zones list`: Lists available zones.
+* `gcloud compute instances list`: Lists all VM instances in your project.
+* `gcloud compute disks list`: Lists persistent disks.
+* `gcloud compute snapshots list`: Lists snapshots of your disks.
 
-### Other Services:
-gcloud auth list: Lists the active GCP account.
-gcloud config list project: Shows the current project ID.
-gcloud kms decrypt: Decrypts ciphertext using Cloud Key Management Service.
-gcloud logging logs list: Lists your project's logs.
-gcloud sql backups describe: Gets information about a Cloud SQL backup.
+**Instance Management:**
 
-This is just a small sample of gcloud commands. 
-For a comprehensive list and detailed explanations, refer to the official documentation: https://cloud.google.com/sdk/gcloud
+* `gcloud compute instances create`: Creates a new VM instance.
+* `gcloud compute instances describe`: Gets details of a specific VM.
+* `gcloud compute instances stop`: Stops a running VM instance.
+* `gcloud compute ssh`: Opens an SSH connection to a VM.
+
+### Cloud Storage
+
+* `gsutil mb gs://bucket_name`: Creates a new storage bucket.
+* `gsutil cp local_file gs://bucket_name`: Uploads a file to a bucket.
+* `gsutil ls gs://bucket_name`: Lists objects within a bucket.
+
+### Other Services
+
+* `gcloud auth list`: Lists the active GCP account.
+* `gcloud config list project`: Shows the current project ID.
+* `gcloud kms decrypt`: Decrypts ciphertext using Cloud Key Management Service.
+* `gcloud logging logs list`: Lists your project's logs.
+* `gcloud sql backups describe`: Gets information about a Cloud SQL backup.
+
+**Note:** This is just a small sample of gcloud commands. For a comprehensive list and detailed explanations, refer to the official documentation: [https://cloud.google.com/sdk/docs](https://cloud.google.com/sdk/docs)
+
 
 In Google Cloud Platform (GCP), the `gcloud` command-line tool is used to manage resources and services. 
 Similar to Azure CLI, `gcloud` is essential for performing a wide range of operations within GCP. 
