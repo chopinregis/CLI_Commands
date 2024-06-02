@@ -1,4 +1,6 @@
-The GCP (Google Cloud Platform) command line tool is called `gcloud`. It offers a wide range of commands to manage various GCP services. Here's a quick rundown of some common commands to get you started:
+The GCP (Google Cloud Platform) command line tool is called `gcloud`. 
+It offers a wide range of commands to manage various GCP services. 
+Here's a quick rundown of some common commands to get you started:
 
 **Compute Engine:**
 
@@ -21,7 +23,9 @@ The GCP (Google Cloud Platform) command line tool is called `gcloud`. It offers 
 * **List active account:** `gcloud auth list`
 * **List logs:** `gcloud logging logs list`
 
-This is just a small sample. There are many more commands available for different GCP services.  For a more comprehensive list and details on specific commands, refer to the official Google Cloud CLI documentation [https://cloud.google.com/sdk/docs/cheatsheet](https://cloud.google.com/sdk/docs/cheatsheet).
+This is just a small sample. There are many more commands available for different GCP services.  
+For a more comprehensive list and details on specific commands, 
+refer to the official Google Cloud CLI documentation [https://cloud.google.com/sdk/docs/cheatsheet](https://cloud.google.com/sdk/docs/cheatsheet).
 
 Here are some additional resources that you might find helpful:
 
