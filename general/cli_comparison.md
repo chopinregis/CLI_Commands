@@ -21,3 +21,26 @@ Comparing the CLI commands of Google Cloud Platform (GCP), Azure, and Amazon Web
 - **Comprehensiveness:** AWS CLI covers more services and configurations, which might be preferred by users needing detailed control over a wide array of services.
 
 Ultimately, the "best" CLI depends on your specific needs, familiarity with the cloud platform, and the specific tasks you need to perform. Each CLI has its strengths and is designed to work seamlessly within its respective cloud environment.
+
+
+Here's a comparison of GCP, Azure, and AWS CLI commands in terms of structure and ease of comprehension:
+
+**Structure:**
+
+* **AWS CLI:** Known for being powerful and dense, with a wide range of commands and options. However, it can be inconsistent in structure across different services, making it less intuitive for beginners.
+* **Azure CLI:** Generally considered rich and easy to get started with. It offers a consistent structure with verb-noun format (e.g., `az vm create`). However, some might find it slightly more complex than necessary.
+* **GCP CLI:** Praised for its clean and consistent structure. It follows a similar verb-noun format (e.g., `gcloud compute instances create`) and is known for being easy to learn and use.
+
+**Ease of Comprehension:**
+
+* **AWS CLI:** The dense structure and inconsistencies can make it challenging for beginners to understand and remember commands. 
+* **Azure CLI:** The clear structure and built-in help make it easier to grasp the commands and their functionalities.
+* **GCP CLI:** The clean structure, consistent naming conventions, and helpful auto-completion features contribute to its reputation for being the most user-friendly CLI among the three.
+
+**In summary:**
+
+* **For experienced users:** AWS CLI offers the most power and flexibility.
+* **For beginners:** GCP CLI is generally considered the easiest to learn and use due to its clear structure and helpful features.
+* **For a balance:** Azure CLI provides a good balance between ease of use and functionality.
+
+Ultimately, the best choice depends on your experience and priorities. It's recommended to try all three CLIs to see which one suits you best. 
